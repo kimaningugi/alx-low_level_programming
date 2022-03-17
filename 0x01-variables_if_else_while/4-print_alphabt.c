@@ -3,7 +3,7 @@
  * main - print if the number is postive, zero, or negative
  *
  * Description: using the main function
- * this program prints "alphabet in lowercase and uppercase
+ * this program prints "All letters except q and e"
  * Return: 0
  */
 int main(void)
@@ -11,11 +11,10 @@ int main(void)
 char ch;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-	putchar(ch);
-}
-for (ch = 'A' ; ch <= 'Z' ; ch++)
+if (ch != 'e' && ch != 'q')
 {
 	putchar(ch);
+}
 }
 putchar('\n');
 return (0);
