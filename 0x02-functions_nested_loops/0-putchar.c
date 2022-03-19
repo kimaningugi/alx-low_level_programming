@@ -2,6 +2,6 @@
 
 int main(void)
 {
-	_putchar("_putchar");
-	_putchar("\n") 
+int _putchar(_putchar)
+	putchar("\n"); 
 }
