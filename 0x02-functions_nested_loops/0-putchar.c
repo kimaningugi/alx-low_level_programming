@@ -1,7 +1,7 @@
 #include "main.h"
 
-int main()
+int main(void)
 {
-putchar("_putchar");
-putchar("\n") 
+	_putchar('_putchar');
+	_putchar('\n') 
 }
