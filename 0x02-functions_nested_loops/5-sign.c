@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /** Task Five: 5-sing.c*/
 /**
  * print_sign - prints the sign of a number
